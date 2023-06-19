@@ -1,7 +1,7 @@
 export const Content = () => {
 
     const handleNameChange = () => {
-        const names = ['Bob', 'Kevin', 'Davi']
+        const names = ['Bob', 'Silas', 'Davi']
         const int = Math.floor(Math.random() * 3)
         return names[int]
     }
